@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_srvs",
+  "non_idl_tuples": [
+    "/home/daniel/danbot_v1_ws/src/custom_srvs:srv/ComputeRectangleArea.srv"
+  ]
+}

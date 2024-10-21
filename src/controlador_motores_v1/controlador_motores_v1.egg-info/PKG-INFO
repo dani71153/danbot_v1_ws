@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: controlador_motores_v1
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: daniel
+Maintainer-email: daniel@todo.todo
+License: TODO: License declaration
+Requires-Dist: setuptools

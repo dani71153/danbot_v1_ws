@@ -1,0 +1,5 @@
+[ 33%] Built target simple_publisher
+[ 66%] Built target simple_subscriber
+[ 83%] [32mBuilding CXX object CMakeFiles/custom_publisher.dir/src/custom_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable custom_publisher[0m
+[100%] Built target custom_publisher

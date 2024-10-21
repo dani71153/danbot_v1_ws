@@ -1,0 +1,30 @@
+[1.557s] Invoking command in '/home/daniel/danbot_v1_ws/build/controlador_motores_v1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel/danbot_v1_ws/build/controlador_motores_v1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/daniel/danbot_v1_ws/build/controlador_motores_v1/build --no-deps symlink_data
+[1.988s] running develop
+[1.988s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.988s] !!
+[1.988s] 
+[1.988s]         ********************************************************************************
+[1.989s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.989s]         Instead, use pypa/build, pypa/installer or other
+[1.989s]         standards-based tools.
+[1.989s] 
+[1.989s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.989s]         ********************************************************************************
+[1.989s] 
+[1.989s] !!
+[1.989s]   easy_install.initialize_options(self)
+[2.288s] running egg_info
+[2.320s] writing controlador_motores_v1.egg-info/PKG-INFO
+[2.320s] writing dependency_links to controlador_motores_v1.egg-info/dependency_links.txt
+[2.320s] writing entry points to controlador_motores_v1.egg-info/entry_points.txt
+[2.320s] writing requirements to controlador_motores_v1.egg-info/requires.txt
+[2.320s] writing top-level names to controlador_motores_v1.egg-info/top_level.txt
+[2.382s] reading manifest file 'controlador_motores_v1.egg-info/SOURCES.txt'
+[2.383s] writing manifest file 'controlador_motores_v1.egg-info/SOURCES.txt'
+[2.415s] running build_ext
+[2.416s] Creating /home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/python3.12/site-packages/controlador-motores-v1.egg-link (link to .)
+[2.416s] Installing motor_controller script to /home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/controlador_motores_v1
+[2.416s] 
+[2.419s] Installed /home/daniel/danbot_v1_ws/build/controlador_motores_v1
+[2.419s] running symlink_data
+[2.477s] Invoked command in '/home/daniel/danbot_v1_ws/build/controlador_motores_v1' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel/danbot_v1_ws/build/controlador_motores_v1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/daniel/danbot_v1_ws/build/controlador_motores_v1/build --no-deps symlink_data

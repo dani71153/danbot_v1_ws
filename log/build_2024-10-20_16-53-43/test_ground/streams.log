@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/daniel/danbot_v1_ws/build/test_ground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/test_ground -- -j4 -l4
+[0.086s] [ 33%] Built target simple_subscriber
+[0.087s] [ 66%] [32mBuilding CXX object CMakeFiles/custom_publisher.dir/src/custom_publisher.cpp.o[0m
+[0.088s] [ 83%] Built target simple_publisher
+[6.000s] [100%] [32m[1mLinking CXX executable custom_publisher[0m
+[6.243s] [100%] Built target custom_publisher
+[6.265s] Invoked command in '/home/daniel/danbot_v1_ws/build/test_ground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/test_ground -- -j4 -l4
+[6.325s] Invoking command in '/home/daniel/danbot_v1_ws/build/test_ground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/test_ground
+[6.335s] -- Install configuration: ""
+[6.335s] -- Execute custom install script
+[6.336s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/lib/test_ground/simple_publisher
+[6.336s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/lib/test_ground/simple_subscriber
+[6.337s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/lib/test_ground/custom_publisher
+[6.337s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/ament_index/resource_index/package_run_dependencies/test_ground
+[6.337s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/ament_index/resource_index/parent_prefix_path/test_ground
+[6.337s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/environment/ament_prefix_path.sh
+[6.338s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/environment/ament_prefix_path.dsv
+[6.338s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/environment/path.sh
+[6.338s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/environment/path.dsv
+[6.338s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/local_setup.bash
+[6.338s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/local_setup.sh
+[6.338s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/local_setup.zsh
+[6.339s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/local_setup.dsv
+[6.339s] -- Symlinking: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.dsv
+[6.351s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/ament_index/resource_index/packages/test_ground
+[6.351s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/cmake/test_groundConfig.cmake
+[6.352s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/cmake/test_groundConfig-version.cmake
+[6.352s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.xml
+[6.354s] Invoked command in '/home/daniel/danbot_v1_ws/build/test_ground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/test_ground

@@ -1,0 +1,21 @@
+[0.015s] Invoking command in '/home/daniel/danbot_v1_ws/build/custom_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/danbot_v1_ws/src/custom_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daniel/danbot_v1_ws/install/custom_srvs
+[0.041s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.350s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.358s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.384s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.394s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.423s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.461s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.470s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.473s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.820s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[0.820s]   Packages installing interfaces must include
+[0.821s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.821s]   package.xml
+[0.821s] Call Stack (most recent call first):
+[0.821s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[0.821s] 
+[0.821s] [0m
+[0.821s] -- Configuring incomplete, errors occurred!
+[0.827s] Invoked command in '/home/daniel/danbot_v1_ws/build/custom_srvs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/danbot_v1_ws/src/custom_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daniel/danbot_v1_ws/install/custom_srvs

@@ -1,0 +1,7 @@
+[31mCMake Error at /usr/share/cmake-3.28/Modules/FindBoost.cmake:1842 (file):
+  file STRINGS file "/usr/include/boost/version.hpp" cannot be read.
+Call Stack (most recent call first):
+  CMakeLists.txt:24 (find_package)
+
+[0m
+gmake: *** [Makefile:311: cmake_check_build_system] Error 1

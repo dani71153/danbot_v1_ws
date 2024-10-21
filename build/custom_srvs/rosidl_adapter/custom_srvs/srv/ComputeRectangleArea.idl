@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_srvs/srv/ComputeRectangleArea.srv
+// generated code does not contain a copyright notice
+
+
+module custom_srvs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Solicitud (request)")
+    struct ComputeRectangleArea_Request {
+      float length;
+
+      float width;
+    };
+    @verbatim (language="comment", text=
+      "Respuesta (response)")
+    struct ComputeRectangleArea_Response {
+      float area;
+    };
+  };
+};

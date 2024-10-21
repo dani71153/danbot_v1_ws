@@ -1,0 +1,2 @@
+[console_scripts]
+cinematica_directa_v1 = cinematica_v1.cinematica_directa_v1:main

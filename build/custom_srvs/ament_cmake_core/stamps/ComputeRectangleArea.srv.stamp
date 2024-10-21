@@ -1,0 +1,7 @@
+# Solicitud (request)
+float32 length
+float32 width
+
+---
+# Respuesta (response)
+float32 area

@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating cinematica_v1.egg-info
+writing cinematica_v1.egg-info/PKG-INFO
+writing dependency_links to cinematica_v1.egg-info/dependency_links.txt
+writing requirements to cinematica_v1.egg-info/requires.txt
+writing top-level names to cinematica_v1.egg-info/top_level.txt
+writing manifest file 'cinematica_v1.egg-info/SOURCES.txt'
+reading manifest file 'cinematica_v1.egg-info/SOURCES.txt'
+writing manifest file 'cinematica_v1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/daniel/danbot_v1_ws/install/cinematica_v1/lib/python3.12/site-packages/cinematica-v1.egg-link (link to .)
+
+Installed /home/daniel/danbot_v1_ws/build/cinematica_v1
+running symlink_data
+creating /home/daniel/danbot_v1_ws/install/cinematica_v1/share/ament_index
+creating /home/daniel/danbot_v1_ws/install/cinematica_v1/share/ament_index/resource_index
+creating /home/daniel/danbot_v1_ws/install/cinematica_v1/share/ament_index/resource_index/packages
+symbolically linking /home/daniel/danbot_v1_ws/build/cinematica_v1/resource/cinematica_v1 -> /home/daniel/danbot_v1_ws/install/cinematica_v1/share/ament_index/resource_index/packages
+symbolically linking /home/daniel/danbot_v1_ws/build/cinematica_v1/package.xml -> /home/daniel/danbot_v1_ws/install/cinematica_v1/share/cinematica_v1

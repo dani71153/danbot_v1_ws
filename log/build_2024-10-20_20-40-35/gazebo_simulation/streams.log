@@ -1,0 +1,22 @@
+[0.328s] Invoking command in '/home/daniel/danbot_v1_ws/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/danbot_v1_ws/src/omni_navigation/src/gazebo_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daniel/danbot_v1_ws/install/gazebo_simulation
+[0.364s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.856s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.917s] -- Configuring incomplete, errors occurred!
+[0.918s] [31mCMake Error at CMakeLists.txt:20 (find_package):
+[0.918s]   By not providing "Findgz-sim7.cmake" in CMAKE_MODULE_PATH this project has
+[0.919s]   asked CMake to find a package configuration file provided by "gz-sim7", but
+[0.919s]   CMake did not find one.
+[0.920s] 
+[0.920s]   Could not find a package configuration file provided by "gz-sim7" with any
+[0.920s]   of the following names:
+[0.920s] 
+[0.920s]     gz-sim7Config.cmake
+[0.920s]     gz-sim7-config.cmake
+[0.920s] 
+[0.920s]   Add the installation prefix of "gz-sim7" to CMAKE_PREFIX_PATH or set
+[0.920s]   "gz-sim7_DIR" to a directory containing one of the above files.  If
+[0.920s]   "gz-sim7" provides a separate development package or SDK, be sure it has
+[0.923s]   been installed.
+[0.923s] 
+[0.923s] [0m
+[0.942s] Invoked command in '/home/daniel/danbot_v1_ws/build/gazebo_simulation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/danbot_v1_ws/src/omni_navigation/src/gazebo_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daniel/danbot_v1_ws/install/gazebo_simulation

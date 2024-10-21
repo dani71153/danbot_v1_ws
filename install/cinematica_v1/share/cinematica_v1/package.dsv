@@ -1,0 +1,9 @@
+source;share/cinematica_v1/hook/pythonpath.ps1
+source;share/cinematica_v1/hook/pythonpath.dsv
+source;share/cinematica_v1/hook/pythonpath.sh
+source;share/cinematica_v1/hook/ament_prefix_path.ps1
+source;share/cinematica_v1/hook/ament_prefix_path.dsv
+source;share/cinematica_v1/hook/ament_prefix_path.sh
+source;../../build/cinematica_v1/share/cinematica_v1/hook/pythonpath_develop.ps1
+source;../../build/cinematica_v1/share/cinematica_v1/hook/pythonpath_develop.dsv
+source;../../build/cinematica_v1/share/cinematica_v1/hook/pythonpath_develop.sh

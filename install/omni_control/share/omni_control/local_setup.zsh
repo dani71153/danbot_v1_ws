@@ -1,0 +1,1 @@
+/home/daniel/danbot_v1_ws/build/omni_control/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000491] (test_ground) JobQueued: {'identifier': 'test_ground', 'dependencies': OrderedDict()}
+[0.000710] (test_ground) JobStarted: {'identifier': 'test_ground'}
+[0.009994] (test_ground) JobProgress: {'identifier': 'test_ground', 'progress': 'cmake'}
+[0.010427] (test_ground) JobProgress: {'identifier': 'test_ground', 'progress': 'build'}
+[0.011095] (test_ground) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daniel/danbot_v1_ws/build/test_ground', '--', '-j4', '-l4'], 'cwd': '/home/daniel/danbot_v1_ws/build/test_ground', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'daniel', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/daniel', 'OLDPWD': '/home/daniel', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2279', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'daniel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'daniel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/daniel-NucBoxG5:@/tmp/.ICE-unix/2245,unix/daniel-NucBoxG5:/tmp/.ICE-unix/2245', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0b655c3f_63c9_44d9_9b08_8da84e608091', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OZ7YV2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.322', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/daniel/danbot_v1_ws/build/test_ground', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.069122] (test_ground) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o\x1b[0m\n'}
+[0.100004] (-) TimerEvent: {}
+[0.200344] (-) TimerEvent: {}
+[0.300686] (-) TimerEvent: {}
+[0.401029] (-) TimerEvent: {}
+[0.501361] (-) TimerEvent: {}
+[0.601692] (-) TimerEvent: {}
+[0.702036] (-) TimerEvent: {}
+[0.802365] (-) TimerEvent: {}
+[0.902698] (-) TimerEvent: {}
+[1.003037] (-) TimerEvent: {}
+[1.103376] (-) TimerEvent: {}
+[1.203691] (-) TimerEvent: {}
+[1.304054] (-) TimerEvent: {}
+[1.404396] (-) TimerEvent: {}
+[1.504741] (-) TimerEvent: {}
+[1.605067] (-) TimerEvent: {}
+[1.705376] (-) TimerEvent: {}
+[1.805710] (-) TimerEvent: {}
+[1.906058] (-) TimerEvent: {}
+[2.006396] (-) TimerEvent: {}
+[2.106746] (-) TimerEvent: {}
+[2.207047] (-) TimerEvent: {}
+[2.307363] (-) TimerEvent: {}
+[2.407695] (-) TimerEvent: {}
+[2.508029] (-) TimerEvent: {}
+[2.556840] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:40:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSetBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_srvs::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.557490] (test_ground) StderrLine: {'line': b'   40 | void toggle_publishing(const std::shared_ptr<std_srvs::srv::\x1b[01;31m\x1b[KSetBool\x1b[m\x1b[K::Request> request,\n'}
+[2.557624] (test_ground) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.557737] (test_ground) StderrLine: {'line': b'\n'}
+[2.557826] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:40:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.558076] (test_ground) StderrLine: {'line': b'   40 | lishing(const std::shared_ptr<std_srvs::srv::SetBool::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[2.558295] (test_ground) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.558426] (test_ground) StderrLine: {'line': b'\n'}
+[2.558520] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:40:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSetBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_srvs::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.558631] (test_ground) StderrLine: {'line': b'   40 | void toggle_publishing(const std::shared_ptr<std_srvs::srv::\x1b[01;31m\x1b[KSetBool\x1b[m\x1b[K::Request> request,\n'}
+[2.558724] (test_ground) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.558896] (test_ground) StderrLine: {'line': b'\n'}
+[2.559028] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:40:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.559125] (test_ground) StderrLine: {'line': b'   40 | lishing(const std::shared_ptr<std_srvs::srv::SetBool::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[2.559214] (test_ground) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.559305] (test_ground) StderrLine: {'line': b'\n'}
+[2.559479] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:40:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSetBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_srvs::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.559630] (test_ground) StderrLine: {'line': b'   40 | void toggle_publishing(const std::shared_ptr<std_srvs::srv::\x1b[01;31m\x1b[KSetBool\x1b[m\x1b[K::Request> request,\n'}
+[2.559730] (test_ground) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.559893] (test_ground) StderrLine: {'line': b'\n'}
+[2.560026] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:40:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.560120] (test_ground) StderrLine: {'line': b'   40 | lishing(const std::shared_ptr<std_srvs::srv::SetBool::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[2.560208] (test_ground) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.560294] (test_ground) StderrLine: {'line': b'\n'}
+[2.560379] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:40:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[2.560463] (test_ground) StderrLine: {'line': b'   40 |     void toggle_publishing(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<std_srvs::srv::SetBool::Request> request,\n'}
+[2.560547] (test_ground) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.560646] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:40:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_srvs::srv::SetBool\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.560733] (test_ground) StderrLine: {'line': b'   40 | void toggle_publishing(const std::shared_ptr<std_srvs::srv::\x1b[01;31m\x1b[KSetBool\x1b[m\x1b[K::Request> request,\n'}
+[2.560836] (test_ground) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.560920] (test_ground) StderrLine: {'line': b'\n'}
+[2.561004] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:40:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing template argument list after \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99; template placeholder not permitted in parameter\n'}
+[2.561089] (test_ground) StderrLine: {'line': b'   40 |     void toggle_publishing(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<std_srvs::srv::SetBool::Request> request,\n'}
+[2.561171] (test_ground) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.561255] (test_ground) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[K<>\x1b[m\x1b[K\n'}
+[2.561337] (test_ground) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[2.561429] (test_ground) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K,\n'}
+[2.561511] (test_ground) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169\x1b[m\x1b[K,\n'}
+[2.561605] (test_ground) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:1\x1b[m\x1b[K:\n'}
+[2.561692] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:395:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> class std::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.561776] (test_ground) StderrLine: {'line': b'  395 |     class \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K;\n'}
+[2.561858] (test_ground) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.561940] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:41:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSetBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_srvs::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.562039] (test_ground) StderrLine: {'line': b'   41 |                            std::shared_ptr<std_srvs::srv::\x1b[01;31m\x1b[KSetBool\x1b[m\x1b[K::Response> response)\n'}
+[2.562124] (test_ground) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.562206] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:41:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.562287] (test_ground) StderrLine: {'line': b'   41 |             std::shared_ptr<std_srvs::srv::SetBool::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[2.562367] (test_ground) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.562450] (test_ground) StderrLine: {'line': b'\n'}
+[2.562530] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:41:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSetBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_srvs::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.562624] (test_ground) StderrLine: {'line': b'   41 |                            std::shared_ptr<std_srvs::srv::\x1b[01;31m\x1b[KSetBool\x1b[m\x1b[K::Response> response)\n'}
+[2.562708] (test_ground) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.562797] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:41:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.562881] (test_ground) StderrLine: {'line': b'   41 |             std::shared_ptr<std_srvs::srv::SetBool::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[2.562961] (test_ground) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.563042] (test_ground) StderrLine: {'line': b'\n'}
+[2.563122] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:41:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSetBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_srvs::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.563203] (test_ground) StderrLine: {'line': b'   41 |                            std::shared_ptr<std_srvs::srv::\x1b[01;31m\x1b[KSetBool\x1b[m\x1b[K::Response> response)\n'}
+[2.563284] (test_ground) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.563364] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:41:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.563444] (test_ground) StderrLine: {'line': b'   41 |             std::shared_ptr<std_srvs::srv::SetBool::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[2.563524] (test_ground) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.563616] (test_ground) StderrLine: {'line': b'\n'}
+[2.563697] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:41:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[2.563780] (test_ground) StderrLine: {'line': b'   41 |                            \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<std_srvs::srv::SetBool::Response> response)\n'}
+[2.563860] (test_ground) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.563942] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:41:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_srvs::srv::SetBool\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.564024] (test_ground) StderrLine: {'line': b'   41 |                            std::shared_ptr<std_srvs::srv::\x1b[01;31m\x1b[KSetBool\x1b[m\x1b[K::Response> response)\n'}
+[2.564104] (test_ground) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.564184] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:41:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing template argument list after \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99; template placeholder not permitted in parameter\n'}
+[2.564267] (test_ground) StderrLine: {'line': b'   41 |                            \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<std_srvs::srv::SetBool::Response> response)\n'}
+[2.564348] (test_ground) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.564434] (test_ground) StderrLine: {'line': b'      |                               \x1b[32m\x1b[K<>\x1b[m\x1b[K\n'}
+[2.564515] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:395:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> class std::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.564607] (test_ground) StderrLine: {'line': b'  395 |     class \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K;\n'}
+[2.564698] (test_ground) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.566980] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:61:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSetBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_srvs::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.567157] (test_ground) StderrLine: {'line': b'   61 |     rclcpp::Service<std_srvs::srv::\x1b[01;31m\x1b[KSetBool\x1b[m\x1b[K>::SharedPtr service_;  // Servicio para controlar la publicaci\xc3\xb3n\n'}
+[2.567243] (test_ground) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.567324] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:61:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.567408] (test_ground) StderrLine: {'line': b'   61 |     rclcpp::Service<std_srvs::srv::SetBool\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr service_;  // Servicio para controlar la publicaci\xc3\xb3n\n'}
+[2.567505] (test_ground) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.567606] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:61:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.567693] (test_ground) StderrLine: {'line': b'   61 |     rclcpp::Service<std_srvs::srv::SetBool>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K service_;  // Servicio para controlar la publicaci\xc3\xb3n\n'}
+[2.567773] (test_ground) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.567854] (test_ground) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.569103] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:61:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kservice_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.569267] (test_ground) StderrLine: {'line': b'   61 |     rclcpp::Service<std_srvs::srv::SetBool>::SharedPtr \x1b[01;31m\x1b[Kservice_\x1b[m\x1b[K;  // Servicio para controlar la publicaci\xc3\xb3n\n'}
+[2.569360] (test_ground) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.600614] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSimplePublisher::\x1b[01;32m\x1b[KSimplePublisher\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.600858] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:16:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kservice_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kservice_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.600954] (test_ground) StderrLine: {'line': b'   16 |         \x1b[01;31m\x1b[Kservice_\x1b[m\x1b[K = this->create_service<std_srvs::srv::SetBool>(\n'}
+[2.601041] (test_ground) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.601125] (test_ground) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kservice_msgs\x1b[m\x1b[K\n'}
+[2.601505] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:16:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSetBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_srvs::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.601662] (test_ground) StderrLine: {'line': b'   16 |         service_ = this->create_service<std_srvs::srv::\x1b[01;31m\x1b[KSetBool\x1b[m\x1b[K>(\n'}
+[2.601770] (test_ground) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.608165] (-) TimerEvent: {}
+[2.608546] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:16:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSimplePublisher::create_service<<expression error> >(const char [18], std::_Bind_helper<false, void (SimplePublisher::*)(...), SimplePublisher*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.608780] (test_ground) StderrLine: {'line': b'   16 |         service_ = \x1b[01;31m\x1b[Kthis->create_service<std_srvs::srv::SetBool>(\x1b[m\x1b[K\n'}
+[2.608907] (test_ground) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[2.609022] (test_ground) StderrLine: {'line': b'   17 | \x1b[01;31m\x1b[K            "toggle_publishing",\x1b[m\x1b[K\n'}
+[2.609120] (test_ground) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                \n'}
+[2.609209] (test_ground) StderrLine: {'line': b'   18 | \x1b[01;31m\x1b[K            std::bind(&SimplePublisher::toggle_publishing, this, std::placeholders::_1, std::placeholders::_2))\x1b[m\x1b[K;\n'}
+[2.609298] (test_ground) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.609402] (test_ground) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.609496] (test_ground) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.609612] (test_ground) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[2.609712] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::\x1b[01;32m\x1b[Kcreate_service\x1b[m\x1b[K(const std::string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.609820] (test_ground) StderrLine: {'line': b'  302 |   \x1b[01;36m\x1b[Kcreate_service\x1b[m\x1b[K(\n'}
+[2.609909] (test_ground) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.610002] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:302:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 2 provided\n'}
+[2.610103] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:318:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::\x1b[01;32m\x1b[Kcreate_service\x1b[m\x1b[K(const std::string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.610232] (test_ground) StderrLine: {'line': b'  318 |   \x1b[01;36m\x1b[Kcreate_service\x1b[m\x1b[K(\n'}
+[2.610320] (test_ground) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.610415] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:318:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.610501] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:16:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.610614] (test_ground) StderrLine: {'line': b'   16 |         service_ = \x1b[01;31m\x1b[Kthis->create_service<std_srvs::srv::SetBool>(\x1b[m\x1b[K\n'}
+[2.610706] (test_ground) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[2.610794] (test_ground) StderrLine: {'line': b'   17 | \x1b[01;31m\x1b[K            "toggle_publishing",\x1b[m\x1b[K\n'}
+[2.610881] (test_ground) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                \n'}
+[2.610967] (test_ground) StderrLine: {'line': b'   18 | \x1b[01;31m\x1b[K            std::bind(&SimplePublisher::toggle_publishing, this, std::placeholders::_1, std::placeholders::_2))\x1b[m\x1b[K;\n'}
+[2.611053] (test_ground) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.619836] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimplePublisher::\x1b[01;32m\x1b[Ktoggle_publishing\x1b[m\x1b[K(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.620067] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:43:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.620162] (test_ground) StderrLine: {'line': b'   43 |         is_publishing_ = \x1b[01;31m\x1b[Krequest\x1b[m\x1b[K->data;\n'}
+[2.620247] (test_ground) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.626185] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:44:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.626403] (test_ground) StderrLine: {'line': b'   44 |         \x1b[01;31m\x1b[Kresponse\x1b[m\x1b[K->success = true;\n'}
+[2.626498] (test_ground) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.630784] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimplePublisher::\x1b[01;32m\x1b[Kshutdown_node\x1b[m\x1b[K(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.631009] (test_ground) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:50:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.631106] (test_ground) StderrLine: {'line': b'   50 | wn_node(\x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> request\x1b[m\x1b[K,\n'}
+[2.631197] (test_ground) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.631282] (test_ground) StderrLine: {'line': b'\n'}
+[2.708305] (-) TimerEvent: {}
+[2.808653] (-) TimerEvent: {}
+[2.908997] (-) TimerEvent: {}
+[3.009341] (-) TimerEvent: {}
+[3.109645] (-) TimerEvent: {}
+[3.209978] (-) TimerEvent: {}
+[3.310310] (-) TimerEvent: {}
+[3.410664] (-) TimerEvent: {}
+[3.511005] (-) TimerEvent: {}
+[3.611348] (-) TimerEvent: {}
+[3.711663] (-) TimerEvent: {}
+[3.812000] (-) TimerEvent: {}
+[3.912310] (-) TimerEvent: {}
+[4.003043] (test_ground) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/simple_publisher.dir/build.make:76: CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o] Error 1\n'}
+[4.003336] (test_ground) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_publisher.dir/all] Error 2\n'}
+[4.003470] (test_ground) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.005290] (test_ground) CommandEnded: {'returncode': 2}
+[4.012417] (-) TimerEvent: {}
+[4.041149] (test_ground) JobEnded: {'identifier': 'test_ground', 'rc': 2}
+[4.051803] (-) EventReactorShutdown: {}

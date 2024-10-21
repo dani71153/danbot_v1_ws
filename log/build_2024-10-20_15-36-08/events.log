@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000263] (test_ground) JobQueued: {'identifier': 'test_ground', 'dependencies': OrderedDict()}
+[0.000530] (test_ground) JobStarted: {'identifier': 'test_ground'}
+[0.010837] (test_ground) JobProgress: {'identifier': 'test_ground', 'progress': 'cmake'}
+[0.011597] (test_ground) JobProgress: {'identifier': 'test_ground', 'progress': 'build'}
+[0.012251] (test_ground) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daniel/danbot_v1_ws/build/test_ground', '--', '-j4', '-l4'], 'cwd': '/home/daniel/danbot_v1_ws/build/test_ground', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'daniel', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/daniel/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/daniel', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.94.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/172/usr/lib/x86_64-linux-gnu/gtk-3.0', 'GTK_IM_MODULE_FILE': '/home/daniel/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/172/usr/share/code/code', 'MANAGERPID': '1814', 'SYSTEMD_EXEC_PID': '2068', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3921', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/daniel/danbot_v1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'daniel', 'JOURNAL_STREAM': '8:15956', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'daniel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/daniel-NucBoxG5:@/tmp/.ICE-unix/2036,unix/daniel-NucBoxG5:/tmp/.ICE-unix/2036', 'GTK_EXE_PREFIX': '/snap/code/172/usr', 'INVOCATION_ID': '4b53a0d9aab5498e85ffd08afad597f5', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/172/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NKM8V2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e7f0aa3821.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/daniel/snap/code/172/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/daniel/danbot_v1_ws/install/test_ground:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/daniel/danbot_v1_ws/build/test_ground', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/daniel/snap/code/172/.local/share:/home/daniel/snap/code/172:/snap/code/172/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/daniel/danbot_v1_ws/install/test_ground:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.043929] (test_ground) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099824] (-) TimerEvent: {}
+[0.200148] (-) TimerEvent: {}
+[0.271403] (test_ground) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.278536] (test_ground) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.300277] (-) TimerEvent: {}
+[0.309063] (test_ground) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.320167] (test_ground) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.332988] (test_ground) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.347703] (test_ground) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400385] (-) TimerEvent: {}
+[0.424070] (test_ground) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.425447] (test_ground) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500229] (test_ground) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500456] (-) TimerEvent: {}
+[0.585981] (test_ground) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.600552] (-) TimerEvent: {}
+[0.602064] (test_ground) StdoutLine: {'line': b'-- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[0.623969] (test_ground) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.700698] (-) TimerEvent: {}
+[0.736097] (test_ground) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.736455] (test_ground) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.736565] (test_ground) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.736938] (test_ground) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.737999] (test_ground) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.738114] (test_ground) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.738416] (test_ground) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.739505] (test_ground) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.760798] (test_ground) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.762826] (test_ground) StdoutLine: {'line': b'-- Build files have been written to: /home/daniel/danbot_v1_ws/build/test_ground\n'}
+[0.800784] (-) TimerEvent: {}
+[0.801741] (test_ground) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o\x1b[0m\n'}
+[0.813451] (test_ground) StdoutLine: {'line': b'[ 75%] Built target simple_publisher\n'}
+[0.900922] (-) TimerEvent: {}
+[1.001262] (-) TimerEvent: {}
+[1.101606] (-) TimerEvent: {}
+[1.201963] (-) TimerEvent: {}
+[1.302266] (-) TimerEvent: {}
+[1.402594] (-) TimerEvent: {}
+[1.502929] (-) TimerEvent: {}
+[1.603263] (-) TimerEvent: {}
+[1.703604] (-) TimerEvent: {}
+[1.803956] (-) TimerEvent: {}
+[1.904297] (-) TimerEvent: {}
+[2.004635] (-) TimerEvent: {}
+[2.104986] (-) TimerEvent: {}
+[2.205285] (-) TimerEvent: {}
+[2.305619] (-) TimerEvent: {}
+[2.405963] (-) TimerEvent: {}
+[2.506270] (-) TimerEvent: {}
+[2.606615] (-) TimerEvent: {}
+[2.706971] (-) TimerEvent: {}
+[2.807304] (-) TimerEvent: {}
+[2.907633] (-) TimerEvent: {}
+[3.007983] (-) TimerEvent: {}
+[3.108277] (-) TimerEvent: {}
+[3.208576] (-) TimerEvent: {}
+[3.308880] (-) TimerEvent: {}
+[3.409183] (-) TimerEvent: {}
+[3.509510] (-) TimerEvent: {}
+[3.609854] (-) TimerEvent: {}
+[3.710157] (-) TimerEvent: {}
+[3.810483] (-) TimerEvent: {}
+[3.910823] (-) TimerEvent: {}
+[4.011125] (-) TimerEvent: {}
+[4.111492] (-) TimerEvent: {}
+[4.211850] (-) TimerEvent: {}
+[4.312189] (-) TimerEvent: {}
+[4.412488] (-) TimerEvent: {}
+[4.512823] (-) TimerEvent: {}
+[4.613112] (-) TimerEvent: {}
+[4.713458] (-) TimerEvent: {}
+[4.814137] (-) TimerEvent: {}
+[4.914471] (-) TimerEvent: {}
+[5.014799] (-) TimerEvent: {}
+[5.115139] (-) TimerEvent: {}
+[5.215470] (-) TimerEvent: {}
+[5.315804] (-) TimerEvent: {}
+[5.416138] (-) TimerEvent: {}
+[5.516476] (-) TimerEvent: {}
+[5.616821] (-) TimerEvent: {}
+[5.717173] (-) TimerEvent: {}
+[5.817513] (-) TimerEvent: {}
+[5.917854] (-) TimerEvent: {}
+[6.018192] (-) TimerEvent: {}
+[6.118501] (-) TimerEvent: {}
+[6.218849] (-) TimerEvent: {}
+[6.319179] (-) TimerEvent: {}
+[6.419519] (-) TimerEvent: {}
+[6.519864] (-) TimerEvent: {}
+[6.620184] (-) TimerEvent: {}
+[6.720501] (-) TimerEvent: {}
+[6.820808] (-) TimerEvent: {}
+[6.921163] (-) TimerEvent: {}
+[7.021486] (-) TimerEvent: {}
+[7.121749] (-) TimerEvent: {}
+[7.224752] (-) TimerEvent: {}
+[7.325127] (-) TimerEvent: {}
+[7.425416] (-) TimerEvent: {}
+[7.525721] (-) TimerEvent: {}
+[7.626049] (-) TimerEvent: {}
+[7.726369] (-) TimerEvent: {}
+[7.826656] (-) TimerEvent: {}
+[7.926998] (-) TimerEvent: {}
+[8.027321] (-) TimerEvent: {}
+[8.127632] (-) TimerEvent: {}
+[8.227937] (-) TimerEvent: {}
+[8.328220] (-) TimerEvent: {}
+[8.428540] (-) TimerEvent: {}
+[8.528890] (-) TimerEvent: {}
+[8.629215] (-) TimerEvent: {}
+[8.729534] (-) TimerEvent: {}
+[8.829835] (-) TimerEvent: {}
+[8.930146] (-) TimerEvent: {}
+[9.030466] (-) TimerEvent: {}
+[9.130794] (-) TimerEvent: {}
+[9.231111] (-) TimerEvent: {}
+[9.331455] (-) TimerEvent: {}
+[9.431743] (-) TimerEvent: {}
+[9.532085] (-) TimerEvent: {}
+[9.632416] (-) TimerEvent: {}
+[9.680206] (test_ground) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_subscriber\x1b[0m\n'}
+[9.732530] (-) TimerEvent: {}
+[9.832887] (-) TimerEvent: {}
+[9.933259] (-) TimerEvent: {}
+[10.021133] (test_ground) StdoutLine: {'line': b'[100%] Built target simple_subscriber\n'}
+[10.032535] (test_ground) CommandEnded: {'returncode': 0}
+[10.033286] (-) TimerEvent: {}
+[10.063203] (test_ground) JobProgress: {'identifier': 'test_ground', 'progress': 'install'}
+[10.073360] (test_ground) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/daniel/danbot_v1_ws/build/test_ground'], 'cwd': '/home/daniel/danbot_v1_ws/build/test_ground', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'daniel', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/daniel/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/daniel', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.94.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/172/usr/lib/x86_64-linux-gnu/gtk-3.0', 'GTK_IM_MODULE_FILE': '/home/daniel/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/172/usr/share/code/code', 'MANAGERPID': '1814', 'SYSTEMD_EXEC_PID': '2068', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3921', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/daniel/danbot_v1_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'daniel', 'JOURNAL_STREAM': '8:15956', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'daniel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/daniel-NucBoxG5:@/tmp/.ICE-unix/2036,unix/daniel-NucBoxG5:/tmp/.ICE-unix/2036', 'GTK_EXE_PREFIX': '/snap/code/172/usr', 'INVOCATION_ID': '4b53a0d9aab5498e85ffd08afad597f5', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/172/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NKM8V2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e7f0aa3821.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/daniel/snap/code/172/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/daniel/danbot_v1_ws/install/test_ground:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/daniel/danbot_v1_ws/build/test_ground', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/daniel/snap/code/172/.local/share:/home/daniel/snap/code/172:/snap/code/172/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/daniel/danbot_v1_ws/install/test_ground:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.082490] (test_ground) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.082998] (test_ground) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.083357] (test_ground) StdoutLine: {'line': b'-- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/lib/test_ground/simple_publisher\n'}
+[10.083577] (test_ground) StdoutLine: {'line': b'-- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/ament_index/resource_index/package_run_dependencies/test_ground\n'}
+[10.083838] (test_ground) StdoutLine: {'line': b'-- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/ament_index/resource_index/parent_prefix_path/test_ground\n'}
+[10.084003] (test_ground) StdoutLine: {'line': b'-- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/environment/ament_prefix_path.sh\n'}
+[10.084215] (test_ground) StdoutLine: {'line': b'-- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/environment/ament_prefix_path.dsv\n'}
+[10.084433] (test_ground) StdoutLine: {'line': b'-- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/environment/path.sh\n'}
+[10.084587] (test_ground) StdoutLine: {'line': b'-- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/environment/path.dsv\n'}
+[10.084812] (test_ground) StdoutLine: {'line': b'-- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/local_setup.bash\n'}
+[10.085031] (test_ground) StdoutLine: {'line': b'-- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/local_setup.sh\n'}
+[10.085196] (test_ground) StdoutLine: {'line': b'-- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/local_setup.zsh\n'}
+[10.085329] (test_ground) StdoutLine: {'line': b'-- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/local_setup.dsv\n'}
+[10.085479] (test_ground) StdoutLine: {'line': b'-- Symlinking: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.dsv\n'}
+[10.095400] (test_ground) StdoutLine: {'line': b'-- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/ament_index/resource_index/packages/test_ground\n'}
+[10.095647] (test_ground) StdoutLine: {'line': b'-- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/cmake/test_groundConfig.cmake\n'}
+[10.095859] (test_ground) StdoutLine: {'line': b'-- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/cmake/test_groundConfig-version.cmake\n'}
+[10.095970] (test_ground) StdoutLine: {'line': b'-- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.xml\n'}
+[10.097425] (test_ground) CommandEnded: {'returncode': 0}
+[10.133387] (-) TimerEvent: {}
+[10.142350] (test_ground) JobEnded: {'identifier': 'test_ground', 'rc': 0}
+[10.143370] (-) EventReactorShutdown: {}

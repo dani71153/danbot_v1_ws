@@ -1,0 +1,27 @@
+[0.021s] Invoking command in '/home/daniel/danbot_v1_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/rf2o_laser_odometry -- -j4 -l4
+[0.064s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.346s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.353s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.384s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.396s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.410s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.430s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.581s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.583s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.652s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.736s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.753s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.772s] -- Found tf2_geometry_msgs: 0.36.4 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.775s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.776s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.937s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.974s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.026s] [31mCMake Error at /usr/share/cmake-3.28/Modules/FindBoost.cmake:1842 (file):
+[1.026s]   file STRINGS file "/usr/include/boost/version.hpp" cannot be read.
+[1.026s] Call Stack (most recent call first):
+[1.027s]   CMakeLists.txt:24 (find_package)
+[1.027s] 
+[1.027s] [0m
+[1.029s] -- Found Boost: /usr/include (found version "0.0.0")  
+[1.135s] -- Configuring incomplete, errors occurred!
+[1.143s] gmake: *** [Makefile:311: cmake_check_build_system] Error 1

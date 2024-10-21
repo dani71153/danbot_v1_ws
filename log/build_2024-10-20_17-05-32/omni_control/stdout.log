@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control//scripts/robot_control.py
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control//scripts/robot_control_navigation.py
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control//launch/omni_control.launch.py
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control//launch/omni_control_navigation.launch.py
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/lib/omni_control/robot_control.py
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/lib/omni_control/robot_control_navigation.py
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/lib/omni_control/omni_control.launch.py
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/lib/omni_control/omni_control_navigation.launch.py
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/ament_index/resource_index/package_run_dependencies/omni_control
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/ament_index/resource_index/parent_prefix_path/omni_control
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/environment/path.sh
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/environment/path.dsv
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/local_setup.bash
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/local_setup.sh
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/local_setup.zsh
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/local_setup.dsv
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/package.dsv
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/ament_index/resource_index/packages/omni_control
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/cmake/omni_controlConfig.cmake
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/cmake/omni_controlConfig-version.cmake
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/package.xml

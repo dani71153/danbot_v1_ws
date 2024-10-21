@@ -1,0 +1,31 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/robots/omni_robot.urdf.xacro
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/robots/robot.sdf
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/robots/rs_robot.urdf
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/urdf/base/base.gazebo.xacro
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/urdf/base/base.urdf.xacro
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/urdf/lrf/lrf.gazebo.xacro
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/urdf/lrf/lrf.urdf.xacro
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/urdf/omni_wheel/omni_wheel.gazebo.xacro
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/urdf/omni_wheel/omni_wheel.transmission.xacro
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/urdf/omni_wheel/omni_wheel.urdf.xacro
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/urdf/projectile.xacro
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/urdf/roller/roller.gazebo.xacro
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/urdf/roller/roller.transmission.xacro
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/urdf/roller/roller.urdf.xacro
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/ament_index/resource_index/package_run_dependencies/omni_robot_description
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/ament_index/resource_index/parent_prefix_path/omni_robot_description
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/environment/path.sh
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/environment/path.dsv
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/local_setup.bash
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/local_setup.sh
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/local_setup.zsh
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/local_setup.dsv
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/package.dsv
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/ament_index/resource_index/packages/omni_robot_description
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/cmake/omni_robot_descriptionConfig.cmake
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/cmake/omni_robot_descriptionConfig-version.cmake
+-- Symlinking: /home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/package.xml

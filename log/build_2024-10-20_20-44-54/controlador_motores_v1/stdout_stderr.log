@@ -1,0 +1,30 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+writing controlador_motores_v1.egg-info/PKG-INFO
+writing dependency_links to controlador_motores_v1.egg-info/dependency_links.txt
+writing entry points to controlador_motores_v1.egg-info/entry_points.txt
+writing requirements to controlador_motores_v1.egg-info/requires.txt
+writing top-level names to controlador_motores_v1.egg-info/top_level.txt
+reading manifest file 'controlador_motores_v1.egg-info/SOURCES.txt'
+writing manifest file 'controlador_motores_v1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/python3.12/site-packages/controlador-motores-v1.egg-link (link to .)
+Installing motor_controller script to /home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/controlador_motores_v1
+
+Installed /home/daniel/danbot_v1_ws/build/controlador_motores_v1
+running symlink_data
+symbolically linking /home/daniel/danbot_v1_ws/build/controlador_motores_v1/resource/controlador_motores_v1 -> /home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/ament_index/resource_index/packages
+symbolically linking /home/daniel/danbot_v1_ws/build/controlador_motores_v1/package.xml -> /home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/controlador_motores_v1

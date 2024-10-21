@@ -1,0 +1,49 @@
+[0.013s] Invoking command in '/home/daniel/danbot_v1_ws/build/test_ground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/test_ground -- -j4 -l4
+[0.044s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.271s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.278s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.309s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.320s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.333s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.347s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.424s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.425s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.500s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.586s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.602s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.624s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.736s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.736s] -- Configured cppcheck include dirs: 
+[0.736s] -- Configured cppcheck exclude dirs and/or files: 
+[0.736s] -- Added test 'lint_cmake' to check CMake code style
+[0.738s] -- Added test 'uncrustify' to check C / C++ code style
+[0.738s] -- Configured uncrustify additional arguments: 
+[0.738s] -- Added test 'xmllint' to check XML markup files
+[0.739s] -- Configuring done (0.7s)
+[0.760s] -- Generating done (0.0s)
+[0.762s] -- Build files have been written to: /home/daniel/danbot_v1_ws/build/test_ground
+[0.801s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[0.813s] [ 75%] Built target simple_publisher
+[9.680s] [100%] [32m[1mLinking CXX executable simple_subscriber[0m
+[10.021s] [100%] Built target simple_subscriber
+[10.032s] Invoked command in '/home/daniel/danbot_v1_ws/build/test_ground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/test_ground -- -j4 -l4
+[10.073s] Invoking command in '/home/daniel/danbot_v1_ws/build/test_ground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/test_ground
+[10.082s] -- Install configuration: ""
+[10.083s] -- Execute custom install script
+[10.083s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/lib/test_ground/simple_publisher
+[10.083s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/ament_index/resource_index/package_run_dependencies/test_ground
+[10.083s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/ament_index/resource_index/parent_prefix_path/test_ground
+[10.084s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/environment/ament_prefix_path.sh
+[10.084s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/environment/ament_prefix_path.dsv
+[10.084s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/environment/path.sh
+[10.084s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/environment/path.dsv
+[10.084s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/local_setup.bash
+[10.085s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/local_setup.sh
+[10.085s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/local_setup.zsh
+[10.085s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/local_setup.dsv
+[10.085s] -- Symlinking: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.dsv
+[10.095s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/ament_index/resource_index/packages/test_ground
+[10.095s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/cmake/test_groundConfig.cmake
+[10.095s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/cmake/test_groundConfig-version.cmake
+[10.095s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.xml
+[10.097s] Invoked command in '/home/daniel/danbot_v1_ws/build/test_ground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/test_ground

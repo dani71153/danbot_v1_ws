@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+controlador_motores_v2/__init__.py
+controlador_motores_v2/controlador_motores_v2.py
+controlador_motores_v2.egg-info/PKG-INFO
+controlador_motores_v2.egg-info/SOURCES.txt
+controlador_motores_v2.egg-info/dependency_links.txt
+controlador_motores_v2.egg-info/entry_points.txt
+controlador_motores_v2.egg-info/requires.txt
+controlador_motores_v2.egg-info/top_level.txt
+controlador_motores_v2.egg-info/zip-safe
+resource/controlador_motores_v2

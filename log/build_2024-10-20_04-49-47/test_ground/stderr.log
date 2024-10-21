@@ -1,0 +1,10 @@
+[01m[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:[m[K In member function ‘[01m[Kvoid SimplePublisher::[01;32m[Ktoggle_publishing[m[K(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:40:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   40 | lishing([01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> request[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:[m[K In member function ‘[01m[Kvoid SimplePublisher::[01;32m[Kshutdown_node[m[K(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:50:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 | wn_node([01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> request[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+

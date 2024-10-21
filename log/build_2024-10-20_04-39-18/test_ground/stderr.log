@@ -1,0 +1,7 @@
+[01m[K/home/daniel/danbot_v1_ws/src/test_ground/src/simple_publisher.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/srv/set_bool.hpp: No such file or directory
+    3 | #include [01;31m[K"std_srvs/srv/set_bool.hpp"[m[K  // Incluir el servicio estándar SetBool
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/simple_publisher.dir/build.make:76: CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

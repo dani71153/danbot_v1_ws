@@ -1,0 +1,45 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+Removing /home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/python3.12/site-packages/controlador-motores-v1.egg-link (link to .)
+running egg_info
+writing ../../build/controlador_motores_v1/controlador_motores_v1.egg-info/PKG-INFO
+writing dependency_links to ../../build/controlador_motores_v1/controlador_motores_v1.egg-info/dependency_links.txt
+writing entry points to ../../build/controlador_motores_v1/controlador_motores_v1.egg-info/entry_points.txt
+writing requirements to ../../build/controlador_motores_v1/controlador_motores_v1.egg-info/requires.txt
+writing top-level names to ../../build/controlador_motores_v1/controlador_motores_v1.egg-info/top_level.txt
+reading manifest file '../../build/controlador_motores_v1/controlador_motores_v1.egg-info/SOURCES.txt'
+writing manifest file '../../build/controlador_motores_v1/controlador_motores_v1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/daniel/danbot_v1_ws/build/controlador_motores_v1/build
+creating /home/daniel/danbot_v1_ws/build/controlador_motores_v1/build/lib
+creating /home/daniel/danbot_v1_ws/build/controlador_motores_v1/build/lib/controlador_motores_v1
+copying controlador_motores_v1/__init__.py -> /home/daniel/danbot_v1_ws/build/controlador_motores_v1/build/lib/controlador_motores_v1
+copying controlador_motores_v1/controlador_motores_v1.py -> /home/daniel/danbot_v1_ws/build/controlador_motores_v1/build/lib/controlador_motores_v1
+running install
+running install_lib
+creating /home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/python3.12/site-packages/controlador_motores_v1
+copying /home/daniel/danbot_v1_ws/build/controlador_motores_v1/build/lib/controlador_motores_v1/__init__.py -> /home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/python3.12/site-packages/controlador_motores_v1
+copying /home/daniel/danbot_v1_ws/build/controlador_motores_v1/build/lib/controlador_motores_v1/controlador_motores_v1.py -> /home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/python3.12/site-packages/controlador_motores_v1
+byte-compiling /home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/python3.12/site-packages/controlador_motores_v1/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/python3.12/site-packages/controlador_motores_v1/controlador_motores_v1.py to controlador_motores_v1.cpython-312.pyc
+running install_data
+copying resource/controlador_motores_v1 -> /home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/ament_index/resource_index/packages
+copying package.xml -> /home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/controlador_motores_v1
+running install_egg_info
+Copying ../../build/controlador_motores_v1/controlador_motores_v1.egg-info to /home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/python3.12/site-packages/controlador_motores_v1-0.0.0-py3.12.egg-info
+running install_scripts
+Installing motor_controller script to /home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/controlador_motores_v1
+writing list of installed files to '/home/daniel/danbot_v1_ws/build/controlador_motores_v1/install.log'

@@ -1,0 +1,28 @@
+[2.006s] Invoking command in '/home/daniel/danbot_v1_ws/build/cinematica_v1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel/danbot_v1_ws/build/cinematica_v1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/danbot_v1_ws/install/cinematica_v1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/daniel/danbot_v1_ws/build/cinematica_v1/build --no-deps symlink_data
+[2.592s] running develop
+[2.592s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.592s] !!
+[2.593s] 
+[2.593s]         ********************************************************************************
+[2.593s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.593s]         Instead, use pypa/build, pypa/installer or other
+[2.593s]         standards-based tools.
+[2.593s] 
+[2.593s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.593s]         ********************************************************************************
+[2.593s] 
+[2.593s] !!
+[2.594s]   easy_install.initialize_options(self)
+[2.892s] running egg_info
+[2.920s] writing cinematica_v1.egg-info/PKG-INFO
+[2.920s] writing dependency_links to cinematica_v1.egg-info/dependency_links.txt
+[2.920s] writing requirements to cinematica_v1.egg-info/requires.txt
+[2.920s] writing top-level names to cinematica_v1.egg-info/top_level.txt
+[2.983s] reading manifest file 'cinematica_v1.egg-info/SOURCES.txt'
+[2.985s] writing manifest file 'cinematica_v1.egg-info/SOURCES.txt'
+[3.014s] running build_ext
+[3.015s] Creating /home/daniel/danbot_v1_ws/install/cinematica_v1/lib/python3.12/site-packages/cinematica-v1.egg-link (link to .)
+[3.015s] 
+[3.015s] Installed /home/daniel/danbot_v1_ws/build/cinematica_v1
+[3.015s] running symlink_data
+[3.072s] Invoked command in '/home/daniel/danbot_v1_ws/build/cinematica_v1' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel/danbot_v1_ws/build/cinematica_v1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/danbot_v1_ws/install/cinematica_v1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/daniel/danbot_v1_ws/build/cinematica_v1/build --no-deps symlink_data

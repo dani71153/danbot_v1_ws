@@ -1,0 +1,19 @@
+[0.018s] Invoking command in '/home/daniel/danbot_v1_ws/build/omni_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/danbot_v1_ws/src/omni_navigation/src/omni_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daniel/danbot_v1_ws/install/omni_cartographer
+[0.165s] -- The C compiler identification is GNU 13.2.0
+[0.310s] -- The CXX compiler identification is GNU 13.2.0
+[0.345s] -- Detecting C compiler ABI info
+[0.579s] -- Detecting C compiler ABI info - done
+[0.629s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.629s] -- Detecting C compile features
+[0.630s] -- Detecting C compile features - done
+[0.653s] -- Detecting CXX compiler ABI info
+[0.894s] -- Detecting CXX compiler ABI info - done
+[0.923s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.924s] -- Detecting CXX compile features
+[0.924s] -- Detecting CXX compile features - done
+[0.931s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.250s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.417s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.910s] -- Configuring done (1.9s)
+[1.922s] -- Generating done (0.0s)
+[1.924s] -- Build files have been written to: /home/daniel/danbot_v1_ws/build/omni_cartographer

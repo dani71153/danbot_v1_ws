@@ -1,0 +1,10 @@
+[0.014s] Invoking command in '/home/daniel/danbot_v1_ws/build/test_ground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/test_ground -- -j4 -l4
+[0.037s] [31mCMake Error at CMakeLists.txt:37:
+[0.038s]   Parse error.  Expected "(", got newline with text "
+[0.038s] 
+[0.038s]   ".
+[0.038s] 
+[0.038s] [0m
+[0.038s] -- Configuring incomplete, errors occurred!
+[0.039s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.041s] Invoked command in '/home/daniel/danbot_v1_ws/build/test_ground' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/test_ground -- -j4 -l4

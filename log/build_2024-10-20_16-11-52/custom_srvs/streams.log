@@ -1,0 +1,34 @@
+[0.017s] Invoking command in '/home/daniel/danbot_v1_ws/build/custom_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/danbot_v1_ws/src/custom_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daniel/danbot_v1_ws/install/custom_srvs
+[0.126s] -- The C compiler identification is GNU 13.2.0
+[0.198s] -- The CXX compiler identification is GNU 13.2.0
+[0.220s] -- Detecting C compiler ABI info
+[0.322s] -- Detecting C compiler ABI info - done
+[0.334s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.334s] -- Detecting C compile features
+[0.335s] -- Detecting C compile features - done
+[0.346s] -- Detecting CXX compiler ABI info
+[0.528s] -- Detecting CXX compiler ABI info - done
+[0.542s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.542s] -- Detecting CXX compile features
+[0.543s] -- Detecting CXX compile features - done
+[0.552s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.722s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.803s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.859s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.919s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.940s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.964s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.989s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.034s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.060s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.066s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.430s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[1.430s]   Packages installing interfaces must include
+[1.430s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[1.431s]   package.xml
+[1.431s] Call Stack (most recent call first):
+[1.431s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[1.431s] 
+[1.431s] [0m
+[1.431s] -- Configuring incomplete, errors occurred!
+[1.438s] Invoked command in '/home/daniel/danbot_v1_ws/build/custom_srvs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/danbot_v1_ws/src/custom_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daniel/danbot_v1_ws/install/custom_srvs

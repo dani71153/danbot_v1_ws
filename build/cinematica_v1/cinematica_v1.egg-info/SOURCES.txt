@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+cinematica_v1/__init__.py
+cinematica_v1/cinematica_directa_v1.py
+cinematica_v1.egg-info/PKG-INFO
+cinematica_v1.egg-info/SOURCES.txt
+cinematica_v1.egg-info/dependency_links.txt
+cinematica_v1.egg-info/entry_points.txt
+cinematica_v1.egg-info/requires.txt
+cinematica_v1.egg-info/top_level.txt
+cinematica_v1.egg-info/zip-safe
+resource/cinematica_v1

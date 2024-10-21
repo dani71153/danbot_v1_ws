@@ -1,0 +1,2 @@
+[console_scripts]
+motor_controller = controlador_motores_v1.controlador_motores_v1:main

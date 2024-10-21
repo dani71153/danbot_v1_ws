@@ -1,0 +1,174 @@
+[0.013s] Invoking command in '/home/daniel/danbot_v1_ws/build/test_ground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/test_ground -- -j4 -l4
+[0.039s] [33mCMake Warning (dev) at CMakeLists.txt:52:
+[0.039s]   Syntax Warning in cmake code at column 52
+[0.039s] 
+[0.039s]   Argument not separated from preceding token by whitespace.
+[0.039s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.039s] [0m
+[0.039s] [33mCMake Warning (dev) at CMakeLists.txt:52:
+[0.039s]   Syntax Warning in cmake code at column 58
+[0.039s] 
+[0.040s]   Argument not separated from preceding token by whitespace.
+[0.040s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.040s] [0m
+[0.040s] [33mCMake Warning (dev) at CMakeLists.txt:55:
+[0.040s]   Syntax Warning in cmake code at column 92
+[0.040s] 
+[0.040s]   Argument not separated from preceding token by whitespace.
+[0.040s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.040s] [0m
+[0.040s] [33mCMake Warning (dev) at CMakeLists.txt:55:
+[0.040s]   Syntax Warning in cmake code at column 97
+[0.040s] 
+[0.041s]   Argument not separated from preceding token by whitespace.
+[0.041s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.041s] [0m
+[0.041s] [33mCMake Warning (dev) at CMakeLists.txt:58:
+[0.042s]   Syntax Warning in cmake code at column 22
+[0.042s] 
+[0.042s]   Argument not separated from preceding token by whitespace.
+[0.042s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.042s] [0m
+[0.043s] [33mCMake Warning (dev) at CMakeLists.txt:66:
+[0.043s]   Syntax Warning in cmake code at column 48
+[0.043s] 
+[0.043s]   Argument not separated from preceding token by whitespace.
+[0.043s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.043s] [0m
+[0.043s] [33mCMake Warning (dev) at CMakeLists.txt:66:
+[0.043s]   Syntax Warning in cmake code at column 60
+[0.043s] 
+[0.043s]   Argument not separated from preceding token by whitespace.
+[0.043s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.043s] [0m
+[0.044s] [33mCMake Warning (dev) at CMakeLists.txt:69:
+[0.044s]   Syntax Warning in cmake code at column 87
+[0.044s] 
+[0.044s]   Argument not separated from preceding token by whitespace.
+[0.044s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.044s] [0m
+[0.044s] [33mCMake Warning (dev) at CMakeLists.txt:74:
+[0.044s]   Syntax Warning in cmake code at column 63
+[0.044s] 
+[0.044s]   Argument not separated from preceding token by whitespace.
+[0.044s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.044s] [0m
+[0.045s] [33mCMake Warning (dev) at CMakeLists.txt:79:
+[0.045s]   Syntax Warning in cmake code at column 57
+[0.045s] 
+[0.045s]   Argument not separated from preceding token by whitespace.
+[0.045s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.045s] [0m
+[0.045s] [33mCMake Warning (dev) at CMakeLists.txt:82:
+[0.045s]   Syntax Warning in cmake code at column 92
+[0.045s] 
+[0.045s]   Argument not separated from preceding token by whitespace.
+[0.045s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.046s] [0m
+[0.046s] [33mCMake Warning (dev) at CMakeLists.txt:83:
+[0.046s]   Syntax Warning in cmake code at column 39
+[0.046s] 
+[0.046s]   Argument not separated from preceding token by whitespace.
+[0.046s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.046s] [0m
+[0.046s] [33mCMake Warning (dev) at CMakeLists.txt:83:
+[0.046s]   Syntax Warning in cmake code at column 88
+[0.046s] 
+[0.046s]   Argument not separated from preceding token by whitespace.
+[0.046s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.047s] [0m
+[0.047s] [33mCMake Warning (dev) at CMakeLists.txt:84:
+[0.047s]   Syntax Warning in cmake code at column 76
+[0.047s] 
+[0.047s]   Argument not separated from preceding token by whitespace.
+[0.047s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.047s] [0m
+[0.047s] [33mCMake Warning (dev) at CMakeLists.txt:85:
+[0.047s]   Syntax Warning in cmake code at column 37
+[0.047s] 
+[0.047s]   Argument not separated from preceding token by whitespace.
+[0.047s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.048s] [0m
+[0.048s] [33mCMake Warning (dev) at CMakeLists.txt:96:
+[0.048s]   Syntax Warning in cmake code at column 47
+[0.048s] 
+[0.048s]   Argument not separated from preceding token by whitespace.
+[0.048s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.048s] [0m
+[0.048s] [33mCMake Warning (dev) at CMakeLists.txt:96:
+[0.048s]   Syntax Warning in cmake code at column 101
+[0.048s] 
+[0.048s]   Argument not separated from preceding token by whitespace.
+[0.048s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.049s] [0m
+[0.049s] [33mCMake Warning (dev) at CMakeLists.txt:96:
+[0.049s]   Syntax Warning in cmake code at column 121
+[0.049s] 
+[0.049s]   Argument not separated from preceding token by whitespace.
+[0.049s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.049s] [0m
+[0.049s] [33mCMake Warning (dev) at CMakeLists.txt:97:
+[0.049s]   Syntax Warning in cmake code at column 30
+[0.049s] 
+[0.049s]   Argument not separated from preceding token by whitespace.
+[0.049s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.050s] [0m
+[0.050s] [33mCMake Warning (dev) at CMakeLists.txt:113:
+[0.050s]   Syntax Warning in cmake code at column 29
+[0.050s] 
+[0.050s]   Argument not separated from preceding token by whitespace.
+[0.050s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.050s] [0m
+[0.050s] [33mCMake Warning (dev) at CMakeLists.txt:114:
+[0.050s]   Syntax Warning in cmake code at column 52
+[0.050s] 
+[0.050s]   Argument not separated from preceding token by whitespace.
+[0.051s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.051s] [0m
+[0.051s] [33mCMake Warning (dev) at CMakeLists.txt:118:
+[0.051s]   Syntax Warning in cmake code at column 67
+[0.051s] 
+[0.051s]   Argument not separated from preceding token by whitespace.
+[0.051s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.051s] [0m
+[0.051s] [33mCMake Warning (dev) at CMakeLists.txt:118:
+[0.051s]   Syntax Warning in cmake code at column 92
+[0.051s] 
+[0.052s]   Argument not separated from preceding token by whitespace.
+[0.052s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.052s] [0m
+[0.052s] [33mCMake Warning (dev) at CMakeLists.txt:120:
+[0.052s]   Syntax Warning in cmake code at column 23
+[0.052s] 
+[0.052s]   Argument not separated from preceding token by whitespace.
+[0.052s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.052s] [0m
+[0.052s] [33mCMake Warning (dev) at CMakeLists.txt:121:
+[0.052s]   Syntax Warning in cmake code at column 23
+[0.052s] 
+[0.053s]   Argument not separated from preceding token by whitespace.
+[0.053s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.053s] [0m
+[0.053s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.315s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.328s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.369s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.379s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.486s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.487s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.557s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.642s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.660s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.683s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.795s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+[0.795s]   ament_cmake_symlink_install_targets() 'class' is not a target
+[0.795s] Call Stack (most recent call first):
+[0.796s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+[0.796s]   CMakeLists.txt:43 (install)
+[0.796s] 
+[0.798s] [0m
+[0.798s] -- Configuring incomplete, errors occurred!
+[0.804s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[0.806s] Invoked command in '/home/daniel/danbot_v1_ws/build/test_ground' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/test_ground -- -j4 -l4

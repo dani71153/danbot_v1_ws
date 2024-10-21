@@ -1,0 +1,625 @@
+[0.111s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.111s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78c1a2f8ed20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78c1a2f8e960>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78c1a2f8e960>>, mixin_verb=('build',))
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.151s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/daniel/danbot_v1_ws'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematica_v1) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematica_v1) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematica_v1) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematica_v1) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematica_v1) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematica_v1) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematica_v1) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematica_v1) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cinematica_v1) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cinematica_v1' with type 'ros.ament_python' and name 'cinematica_v1'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v1) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v1) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v1) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v1) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v1) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v1) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v1) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v1) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v1) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controlador_motores_v1' with type 'ros.ament_python' and name 'controlador_motores_v1'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v2) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v2) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v2) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v2) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v2) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v2) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v2) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v2) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlador_motores_v2) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controlador_motores_v2' with type 'ros.ament_python' and name 'controlador_motores_v2'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/materials) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/materials) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/materials) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/materials) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/materials) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/materials) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/materials) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/materials) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/materials) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/materials) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/materials) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/materials) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/materials) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/meshes) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/meshes) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/meshes) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/meshes) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/meshes) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/meshes) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/meshes) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/meshes) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/meshes) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/meshes) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/meshes) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/meshes) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/omni_stage/meshes) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_cartographer) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_cartographer) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_cartographer) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_cartographer) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_cartographer) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_cartographer) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_cartographer) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_cartographer) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omni_navigation/src/omni_cartographer' with type 'ros.ament_cmake' and name 'omni_cartographer'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_control) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_control) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_control) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_control) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_control) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_control) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_control) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_control) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_control) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omni_navigation/src/omni_control' with type 'ros.ament_cmake' and name 'omni_control'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_robot_description) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_robot_description) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_robot_description) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_robot_description) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_robot_description) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_robot_description) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_robot_description) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/omni_robot_description) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omni_navigation/src/omni_robot_description' with type 'ros.ament_cmake' and name 'omni_robot_description'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/rf2o_laser_odometry) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/rf2o_laser_odometry) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/rf2o_laser_odometry) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/rf2o_laser_odometry) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/rf2o_laser_odometry) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/rf2o_laser_odometry) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/rf2o_laser_odometry) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/omni_navigation/src/rf2o_laser_odometry) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omni_navigation/src/rf2o_laser_odometry' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_ground) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_ground) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_ground) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_ground) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_ground) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_ground) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_ground) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_ground) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_ground) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_ground' with type 'ros.ament_cmake' and name 'test_ground'
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.217s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/daniel/danbot_v1_ws/install
+[0.219s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 299 installed packages in /opt/ros/jazzy
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cinematica_v1' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cinematica_v1' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cinematica_v1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cinematica_v1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cinematica_v1' build argument 'cmake_clean_first' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cinematica_v1' build argument 'cmake_force_configure' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cinematica_v1' build argument 'ament_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cinematica_v1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cinematica_v1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.292s] DEBUG:colcon.colcon_core.verb:Building package 'cinematica_v1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniel/danbot_v1_ws/build/cinematica_v1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniel/danbot_v1_ws/install/cinematica_v1', 'merge_install': False, 'path': '/home/daniel/danbot_v1_ws/src/cinematica_v1', 'symlink_install': True, 'test_result_base': None}
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v1' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v1' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v1' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v1' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v1' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'controlador_motores_v1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniel/danbot_v1_ws/build/controlador_motores_v1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniel/danbot_v1_ws/install/controlador_motores_v1', 'merge_install': False, 'path': '/home/daniel/danbot_v1_ws/src/controlador_motores_v1', 'symlink_install': True, 'test_result_base': None}
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v2' build argument 'cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v2' build argument 'cmake_target' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v2' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v2' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v2' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'controlador_motores_v2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'controlador_motores_v2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniel/danbot_v1_ws/build/controlador_motores_v2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniel/danbot_v1_ws/install/controlador_motores_v2', 'merge_install': False, 'path': '/home/daniel/danbot_v1_ws/src/controlador_motores_v2', 'symlink_install': True, 'test_result_base': None}
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.294s] DEBUG:colcon.colcon_core.verb:Building package 'omni_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniel/danbot_v1_ws/build/omni_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniel/danbot_v1_ws/install/omni_cartographer', 'merge_install': False, 'path': '/home/daniel/danbot_v1_ws/src/omni_navigation/src/omni_cartographer', 'symlink_install': True, 'test_result_base': None}
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_target' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'omni_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.294s] DEBUG:colcon.colcon_core.verb:Building package 'omni_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniel/danbot_v1_ws/build/omni_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniel/danbot_v1_ws/install/omni_control', 'merge_install': False, 'path': '/home/daniel/danbot_v1_ws/src/omni_navigation/src/omni_control', 'symlink_install': True, 'test_result_base': None}
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.295s] DEBUG:colcon.colcon_core.verb:Building package 'omni_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniel/danbot_v1_ws/build/omni_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniel/danbot_v1_ws/install/omni_robot_description', 'merge_install': False, 'path': '/home/daniel/danbot_v1_ws/src/omni_navigation/src/omni_robot_description', 'symlink_install': True, 'test_result_base': None}
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.295s] DEBUG:colcon.colcon_core.verb:Building package 'rf2o_laser_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniel/danbot_v1_ws/build/rf2o_laser_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry', 'merge_install': False, 'path': '/home/daniel/danbot_v1_ws/src/omni_navigation/src/rf2o_laser_odometry', 'symlink_install': True, 'test_result_base': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'test_ground' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'test_ground' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'test_ground' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'test_ground' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'test_ground' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'test_ground' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'test_ground' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'test_ground' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'test_ground' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'test_ground' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniel/danbot_v1_ws/build/test_ground', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniel/danbot_v1_ws/install/test_ground', 'merge_install': False, 'path': '/home/daniel/danbot_v1_ws/src/test_ground', 'symlink_install': True, 'test_result_base': None}
+[0.296s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.297s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.297s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/daniel/danbot_v1_ws/src/cinematica_v1' with build type 'ament_python'
+[0.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('cinematica_v1', 'ament_prefix_path')
+[0.300s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/cinematica_v1/share/cinematica_v1/hook/ament_prefix_path.ps1'
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/cinematica_v1/share/cinematica_v1/hook/ament_prefix_path.dsv'
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/cinematica_v1/share/cinematica_v1/hook/ament_prefix_path.sh'
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.306s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/daniel/danbot_v1_ws/src/controlador_motores_v1' with build type 'ament_python'
+[0.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlador_motores_v1', 'ament_prefix_path')
+[0.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/controlador_motores_v1/hook/ament_prefix_path.ps1'
+[0.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/controlador_motores_v1/hook/ament_prefix_path.dsv'
+[0.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/controlador_motores_v1/hook/ament_prefix_path.sh'
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/daniel/danbot_v1_ws/src/controlador_motores_v2' with build type 'ament_python'
+[0.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlador_motores_v2', 'ament_prefix_path')
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/share/controlador_motores_v2/hook/ament_prefix_path.ps1'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/share/controlador_motores_v2/hook/ament_prefix_path.dsv'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/share/controlador_motores_v2/hook/ament_prefix_path.sh'
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/daniel/danbot_v1_ws/src/omni_navigation/src/omni_cartographer' with build type 'ament_cmake'
+[0.323s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/daniel/danbot_v1_ws/src/omni_navigation/src/omni_cartographer'
+[0.323s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.323s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.572s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/daniel/danbot_v1_ws/src/cinematica_v1'
+[0.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.816s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/daniel/danbot_v1_ws/src/controlador_motores_v1'
+[0.817s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.817s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.065s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/daniel/danbot_v1_ws/src/controlador_motores_v2'
+[1.066s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.066s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel/danbot_v1_ws/build/omni_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/omni_cartographer -- -j4 -l4
+[1.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel/danbot_v1_ws/build/omni_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/omni_cartographer -- -j4 -l4
+[1.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel/danbot_v1_ws/build/omni_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/omni_cartographer
+[1.231s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_cartographer)
+[1.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel/danbot_v1_ws/build/omni_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/omni_cartographer
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_cartographer' for CMake module files
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_cartographer' for CMake config files
+[1.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_cartographer', 'cmake_prefix_path')
+[1.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.ps1'
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.dsv'
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.sh'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_cartographer/bin'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_cartographer/lib/pkgconfig/omni_cartographer.pc'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_cartographer/lib/python3.12/site-packages'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_cartographer/bin'
+[1.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/package.ps1'
+[1.244s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/package.dsv'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/package.sh'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/package.bash'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/package.zsh'
+[1.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel/danbot_v1_ws/install/omni_cartographer/share/colcon-core/packages/omni_cartographer)
+[1.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_cartographer)
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_cartographer' for CMake module files
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_cartographer' for CMake config files
+[1.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_cartographer', 'cmake_prefix_path')
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.ps1'
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.dsv'
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/hook/cmake_prefix_path.sh'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_cartographer/bin'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_cartographer/lib/pkgconfig/omni_cartographer.pc'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_cartographer/lib/python3.12/site-packages'
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_cartographer/bin'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/package.ps1'
+[1.290s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/package.dsv'
+[1.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/package.sh'
+[1.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/package.bash'
+[1.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_cartographer/share/omni_cartographer/package.zsh'
+[1.292s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel/danbot_v1_ws/install/omni_cartographer/share/colcon-core/packages/omni_cartographer)
+[1.294s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/daniel/danbot_v1_ws/src/omni_navigation/src/omni_control' with build type 'ament_cmake'
+[1.294s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/daniel/danbot_v1_ws/src/omni_navigation/src/omni_control'
+[1.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel/danbot_v1_ws/build/omni_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/omni_control -- -j4 -l4
+[1.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel/danbot_v1_ws/build/omni_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/omni_control -- -j4 -l4
+[1.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel/danbot_v1_ws/build/omni_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/omni_control
+[1.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_control)
+[1.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel/danbot_v1_ws/build/omni_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/omni_control
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_control' for CMake module files
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_control' for CMake config files
+[1.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_control', 'cmake_prefix_path')
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/hook/cmake_prefix_path.ps1'
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/hook/cmake_prefix_path.dsv'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/hook/cmake_prefix_path.sh'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_control/lib'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_control/bin'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_control/lib/pkgconfig/omni_control.pc'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_control/lib/python3.12/site-packages'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_control/bin'
+[1.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/package.ps1'
+[1.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/package.dsv'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/package.sh'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/package.bash'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/package.zsh'
+[1.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel/danbot_v1_ws/install/omni_control/share/colcon-core/packages/omni_control)
+[1.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_control)
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_control' for CMake module files
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_control' for CMake config files
+[1.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_control', 'cmake_prefix_path')
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/hook/cmake_prefix_path.ps1'
+[1.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/hook/cmake_prefix_path.dsv'
+[1.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/hook/cmake_prefix_path.sh'
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_control/lib'
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_control/bin'
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_control/lib/pkgconfig/omni_control.pc'
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_control/lib/python3.12/site-packages'
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_control/bin'
+[1.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/package.ps1'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/package.dsv'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/package.sh'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/package.bash'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/package.zsh'
+[1.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel/danbot_v1_ws/install/omni_control/share/colcon-core/packages/omni_control)
+[1.575s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/daniel/danbot_v1_ws/src/omni_navigation/src/omni_robot_description' with build type 'ament_cmake'
+[1.575s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/daniel/danbot_v1_ws/src/omni_navigation/src/omni_robot_description'
+[1.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel/danbot_v1_ws/build/omni_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/omni_robot_description -- -j4 -l4
+[1.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel/danbot_v1_ws/build/omni_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/omni_robot_description -- -j4 -l4
+[1.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel/danbot_v1_ws/build/omni_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/omni_robot_description
+[1.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_robot_description)
+[1.742s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_robot_description' for CMake module files
+[1.743s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_robot_description' for CMake config files
+[1.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_robot_description', 'cmake_prefix_path')
+[1.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.ps1'
+[1.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.dsv'
+[1.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel/danbot_v1_ws/build/omni_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/omni_robot_description
+[1.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.sh'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_robot_description/bin'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_robot_description/lib/pkgconfig/omni_robot_description.pc'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_robot_description/lib/python3.12/site-packages'
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_robot_description/bin'
+[1.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/package.ps1'
+[1.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/package.dsv'
+[1.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/package.sh'
+[1.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/package.bash'
+[1.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/package.zsh'
+[1.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel/danbot_v1_ws/install/omni_robot_description/share/colcon-core/packages/omni_robot_description)
+[1.814s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_robot_description)
+[1.814s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_robot_description' for CMake module files
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_robot_description' for CMake config files
+[1.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_robot_description', 'cmake_prefix_path')
+[1.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.ps1'
+[1.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.dsv'
+[1.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/hook/cmake_prefix_path.sh'
+[1.818s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_robot_description/bin'
+[1.818s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_robot_description/lib/pkgconfig/omni_robot_description.pc'
+[1.818s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_robot_description/lib/python3.12/site-packages'
+[1.819s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/omni_robot_description/bin'
+[1.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/package.ps1'
+[1.820s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/package.dsv'
+[1.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/package.sh'
+[1.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/package.bash'
+[1.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/omni_robot_description/share/omni_robot_description/package.zsh'
+[1.823s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel/danbot_v1_ws/install/omni_robot_description/share/colcon-core/packages/omni_robot_description)
+[1.824s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/daniel/danbot_v1_ws/src/omni_navigation/src/rf2o_laser_odometry' with build type 'ament_cmake'
+[1.824s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/daniel/danbot_v1_ws/src/omni_navigation/src/rf2o_laser_odometry'
+[1.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.825s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel/danbot_v1_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/rf2o_laser_odometry -- -j4 -l4
+[2.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel/danbot_v1_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/rf2o_laser_odometry -- -j4 -l4
+[2.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel/danbot_v1_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/rf2o_laser_odometry
+[2.159s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[2.160s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry' for CMake module files
+[2.161s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry' for CMake config files
+[2.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel/danbot_v1_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/rf2o_laser_odometry
+[2.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[2.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[2.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[2.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[2.173s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/lib'
+[2.173s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/bin'
+[2.173s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[2.174s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/lib/python3.12/site-packages'
+[2.174s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/bin'
+[2.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[2.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[2.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[2.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[2.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[2.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel/danbot_v1_ws/build/cinematica_v1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel/danbot_v1_ws/build/cinematica_v1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/danbot_v1_ws/install/cinematica_v1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/daniel/danbot_v1_ws/build/cinematica_v1/build --no-deps symlink_data
+[2.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel/danbot_v1_ws/build/controlador_motores_v2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel/danbot_v1_ws/build/controlador_motores_v2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/danbot_v1_ws/install/controlador_motores_v2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/daniel/danbot_v1_ws/build/controlador_motores_v2/build --no-deps symlink_data
+[2.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry' for CMake module files
+[2.264s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry' for CMake config files
+[2.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[2.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[2.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[2.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/lib'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/bin'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/lib/python3.12/site-packages'
+[2.275s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/bin'
+[2.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[2.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[2.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[2.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[2.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[2.286s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel/danbot_v1_ws/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[2.287s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/daniel/danbot_v1_ws/src/test_ground' with build type 'ament_cmake'
+[2.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/daniel/danbot_v1_ws/src/test_ground'
+[2.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel/danbot_v1_ws/build/controlador_motores_v1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel/danbot_v1_ws/build/controlador_motores_v1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/daniel/danbot_v1_ws/build/controlador_motores_v1/build --no-deps symlink_data
+[2.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel/danbot_v1_ws/build/test_ground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/test_ground -- -j4 -l4
+[2.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel/danbot_v1_ws/build/test_ground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/test_ground -- -j4 -l4
+[2.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel/danbot_v1_ws/build/test_ground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/test_ground
+[2.622s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_ground)
+[2.622s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/test_ground' for CMake module files
+[2.623s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/test_ground' for CMake config files
+[2.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_ground', 'cmake_prefix_path')
+[2.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/hook/cmake_prefix_path.ps1'
+[2.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/hook/cmake_prefix_path.dsv'
+[2.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel/danbot_v1_ws/build/test_ground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/test_ground
+[2.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/hook/cmake_prefix_path.sh'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/test_ground/lib'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/test_ground/bin'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/test_ground/lib/pkgconfig/test_ground.pc'
+[2.629s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/test_ground/lib/python3.12/site-packages'
+[2.629s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/test_ground/bin'
+[2.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.ps1'
+[2.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.dsv'
+[2.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.sh'
+[2.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.bash'
+[2.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.zsh'
+[2.634s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel/danbot_v1_ws/install/test_ground/share/colcon-core/packages/test_ground)
+[2.684s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_ground)
+[2.685s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/test_ground' for CMake module files
+[2.686s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/test_ground' for CMake config files
+[2.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_ground', 'cmake_prefix_path')
+[2.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/hook/cmake_prefix_path.ps1'
+[2.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/hook/cmake_prefix_path.dsv'
+[2.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/hook/cmake_prefix_path.sh'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/test_ground/lib'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/test_ground/bin'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/test_ground/lib/pkgconfig/test_ground.pc'
+[2.691s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/test_ground/lib/python3.12/site-packages'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/test_ground/bin'
+[2.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.ps1'
+[2.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.dsv'
+[2.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.sh'
+[2.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.bash'
+[2.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/test_ground/share/test_ground/package.zsh'
+[2.698s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel/danbot_v1_ws/install/test_ground/share/colcon-core/packages/test_ground)
+[3.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlador_motores_v2', 'pythonpath_develop')
+[3.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/build/controlador_motores_v2/share/controlador_motores_v2/hook/pythonpath_develop.ps1'
+[3.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/build/controlador_motores_v2/share/controlador_motores_v2/hook/pythonpath_develop.dsv'
+[3.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/build/controlador_motores_v2/share/controlador_motores_v2/hook/pythonpath_develop.sh'
+[3.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel/danbot_v1_ws/build/controlador_motores_v2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel/danbot_v1_ws/build/controlador_motores_v2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/danbot_v1_ws/install/controlador_motores_v2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/daniel/danbot_v1_ws/build/controlador_motores_v2/build --no-deps symlink_data
+[3.409s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/controlador_motores_v2' for CMake module files
+[3.410s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/controlador_motores_v2' for CMake config files
+[3.411s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/lib'
+[3.411s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/bin'
+[3.418s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/lib/pkgconfig/controlador_motores_v2.pc'
+[3.418s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/lib/python3.12/site-packages'
+[3.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlador_motores_v2', 'pythonpath')
+[3.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/share/controlador_motores_v2/hook/pythonpath.ps1'
+[3.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/share/controlador_motores_v2/hook/pythonpath.dsv'
+[3.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/share/controlador_motores_v2/hook/pythonpath.sh'
+[3.429s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/bin'
+[3.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controlador_motores_v2)
+[3.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/share/controlador_motores_v2/package.ps1'
+[3.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/share/controlador_motores_v2/package.dsv'
+[3.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/share/controlador_motores_v2/package.sh'
+[3.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/share/controlador_motores_v2/package.bash'
+[3.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/controlador_motores_v2/share/controlador_motores_v2/package.zsh'
+[3.443s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel/danbot_v1_ws/install/controlador_motores_v2/share/colcon-core/packages/controlador_motores_v2)
+[3.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('cinematica_v1', 'pythonpath_develop')
+[3.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/build/cinematica_v1/share/cinematica_v1/hook/pythonpath_develop.ps1'
+[3.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/build/cinematica_v1/share/cinematica_v1/hook/pythonpath_develop.dsv'
+[3.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/build/cinematica_v1/share/cinematica_v1/hook/pythonpath_develop.sh'
+[3.449s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/cinematica_v1' for CMake module files
+[3.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel/danbot_v1_ws/build/cinematica_v1' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel/danbot_v1_ws/build/cinematica_v1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/danbot_v1_ws/install/cinematica_v1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/daniel/danbot_v1_ws/build/cinematica_v1/build --no-deps symlink_data
+[3.455s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/cinematica_v1' for CMake config files
+[3.456s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/cinematica_v1/lib'
+[3.456s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/cinematica_v1/bin'
+[3.456s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/cinematica_v1/lib/pkgconfig/cinematica_v1.pc'
+[3.457s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/cinematica_v1/lib/python3.12/site-packages'
+[3.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('cinematica_v1', 'pythonpath')
+[3.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/cinematica_v1/share/cinematica_v1/hook/pythonpath.ps1'
+[3.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/cinematica_v1/share/cinematica_v1/hook/pythonpath.dsv'
+[3.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/cinematica_v1/share/cinematica_v1/hook/pythonpath.sh'
+[3.462s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/cinematica_v1/bin'
+[3.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cinematica_v1)
+[3.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/cinematica_v1/share/cinematica_v1/package.ps1'
+[3.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel/danbot_v1_ws/install/cinematica_v1/share/cinematica_v1/package.dsv'
+[3.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/cinematica_v1/share/cinematica_v1/package.sh'
+[3.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/cinematica_v1/share/cinematica_v1/package.bash'
+[3.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/cinematica_v1/share/cinematica_v1/package.zsh'
+[3.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel/danbot_v1_ws/install/cinematica_v1/share/colcon-core/packages/cinematica_v1)
+[3.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlador_motores_v1', 'pythonpath_develop')
+[3.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel/danbot_v1_ws/build/controlador_motores_v1' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel/danbot_v1_ws/build/controlador_motores_v1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/daniel/danbot_v1_ws/build/controlador_motores_v1/build --no-deps symlink_data
+[3.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/build/controlador_motores_v1/share/controlador_motores_v1/hook/pythonpath_develop.ps1'
+[3.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/build/controlador_motores_v1/share/controlador_motores_v1/hook/pythonpath_develop.dsv'
+[3.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/build/controlador_motores_v1/share/controlador_motores_v1/hook/pythonpath_develop.sh'
+[3.713s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/controlador_motores_v1' for CMake module files
+[3.713s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/controlador_motores_v1' for CMake config files
+[3.714s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib'
+[3.714s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/bin'
+[3.714s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/pkgconfig/controlador_motores_v1.pc'
+[3.715s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/lib/python3.12/site-packages'
+[3.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlador_motores_v1', 'pythonpath')
+[3.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/controlador_motores_v1/hook/pythonpath.ps1'
+[3.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/controlador_motores_v1/hook/pythonpath.dsv'
+[3.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/controlador_motores_v1/hook/pythonpath.sh'
+[3.718s] Level 1:colcon.colcon_core.environment:checking '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/bin'
+[3.718s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controlador_motores_v1)
+[3.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/controlador_motores_v1/package.ps1'
+[3.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/controlador_motores_v1/package.dsv'
+[3.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/controlador_motores_v1/package.sh'
+[3.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/controlador_motores_v1/package.bash'
+[3.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/controlador_motores_v1/package.zsh'
+[3.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel/danbot_v1_ws/install/controlador_motores_v1/share/colcon-core/packages/controlador_motores_v1)
+[3.722s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.722s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.722s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.722s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.730s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.731s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.731s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.769s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.770s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/daniel/danbot_v1_ws/install/local_setup.ps1'
+[3.771s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/daniel/danbot_v1_ws/install/_local_setup_util_ps1.py'
+[3.774s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/daniel/danbot_v1_ws/install/setup.ps1'
+[3.776s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/daniel/danbot_v1_ws/install/local_setup.sh'
+[3.777s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/daniel/danbot_v1_ws/install/_local_setup_util_sh.py'
+[3.778s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/daniel/danbot_v1_ws/install/setup.sh'
+[3.781s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/daniel/danbot_v1_ws/install/local_setup.bash'
+[3.781s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/daniel/danbot_v1_ws/install/setup.bash'
+[3.786s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/daniel/danbot_v1_ws/install/local_setup.zsh'
+[3.787s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/daniel/danbot_v1_ws/install/setup.zsh'

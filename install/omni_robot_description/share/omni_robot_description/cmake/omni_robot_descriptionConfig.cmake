@@ -1,0 +1,1 @@
+/home/daniel/danbot_v1_ws/build/omni_robot_description/ament_cmake_core/omni_robot_descriptionConfig.cmake

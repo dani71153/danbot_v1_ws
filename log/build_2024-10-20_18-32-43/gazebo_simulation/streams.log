@@ -1,0 +1,22 @@
+[0.022s] Invoking command in '/home/daniel/danbot_v1_ws/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/danbot_v1_ws/src/omni_navigation/src/gazebo_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daniel/danbot_v1_ws/install/gazebo_simulation
+[0.040s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.373s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.396s] [31mCMake Error at CMakeLists.txt:20 (find_package):
+[0.396s]   By not providing "Findgazebo.cmake" in CMAKE_MODULE_PATH this project has
+[0.396s]   asked CMake to find a package configuration file provided by "gazebo", but
+[0.396s]   CMake did not find one.
+[0.396s] 
+[0.396s]   Could not find a package configuration file provided by "gazebo" with any
+[0.396s]   of the following names:
+[0.397s] 
+[0.397s]     gazeboConfig.cmake
+[0.397s]     gazebo-config.cmake
+[0.397s] 
+[0.397s]   Add the installation prefix of "gazebo" to CMAKE_PREFIX_PATH or set
+[0.397s]   "gazebo_DIR" to a directory containing one of the above files.  If "gazebo"
+[0.401s]   provides a separate development package or SDK, be sure it has been
+[0.401s]   installed.
+[0.401s] 
+[0.401s] [0m
+[0.402s] -- Configuring incomplete, errors occurred!
+[0.406s] Invoked command in '/home/daniel/danbot_v1_ws/build/gazebo_simulation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/danbot_v1_ws/src/omni_navigation/src/gazebo_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daniel/danbot_v1_ws/install/gazebo_simulation

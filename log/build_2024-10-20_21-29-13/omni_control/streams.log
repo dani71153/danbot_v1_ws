@@ -1,0 +1,29 @@
+[0.509s] Invoking command in '/home/daniel/danbot_v1_ws/build/omni_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/omni_control -- -j4 -l4
+[0.571s] Invoked command in '/home/daniel/danbot_v1_ws/build/omni_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel/danbot_v1_ws/build/omni_control -- -j4 -l4
+[0.624s] Invoking command in '/home/daniel/danbot_v1_ws/build/omni_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/omni_control
+[0.654s] -- Install configuration: ""
+[0.654s] -- Execute custom install script
+[0.655s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control//scripts/robot_control.py
+[0.655s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control//scripts/robot_control_navigation.py
+[0.658s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control//launch/omni_control.launch.py
+[0.658s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control//launch/omni_control_navigation.launch.py
+[0.658s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/lib/omni_control/robot_control.py
+[0.659s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/lib/omni_control/robot_control_navigation.py
+[0.659s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/lib/omni_control/omni_control.launch.py
+[0.662s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/lib/omni_control/omni_control_navigation.launch.py
+[0.662s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/ament_index/resource_index/package_run_dependencies/omni_control
+[0.663s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/ament_index/resource_index/parent_prefix_path/omni_control
+[0.673s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/environment/ament_prefix_path.sh
+[0.673s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/environment/ament_prefix_path.dsv
+[0.673s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/environment/path.sh
+[0.673s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/environment/path.dsv
+[0.673s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/local_setup.bash
+[0.673s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/local_setup.sh
+[0.674s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/local_setup.zsh
+[0.674s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/local_setup.dsv
+[0.674s] -- Symlinking: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/package.dsv
+[0.693s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/ament_index/resource_index/packages/omni_control
+[0.693s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/cmake/omni_controlConfig.cmake
+[0.694s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/cmake/omni_controlConfig-version.cmake
+[0.694s] -- Up-to-date symlink: /home/daniel/danbot_v1_ws/install/omni_control/share/omni_control/package.xml
+[0.710s] Invoked command in '/home/daniel/danbot_v1_ws/build/omni_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/danbot_v1_ws/install/controlador_motores_v2:/home/daniel/danbot_v1_ws/install/controlador_motores_v1:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel/danbot_v1_ws/build/omni_control
